@@ -6,11 +6,11 @@ import {GiPaperArrow} from 'react-icons/gi'
 const Rowthree = () => {
   return (
     <div>
-      <div className='relative text-white px-2 grid md:grid-cols-1 xl:grid-cols-2 gap-5 sm:h-[270px] mb-20'>
+      <div className='relative text-white px-2 grid md:grid-cols-1 xl:grid-cols-2 gap-5 mb-20'>
         <Countercard/>
         <div className='w-full h-full group flex flex-col text-3xl sm:text-5xl font-semibold rounded-[10px] sm:rounded-[30px] blackwhite p-2 md:p-10 '>
           {/* <img src="" alt="" /> */}
-        <GiPaperArrow className='absolute right-10 bottom-16 cursor-pointer group-hover:text-white text-[#817e7e] text-4xl -rotate-[35deg] transition-all duration-500'/>
+        <GiPaperArrow className='absolute right-10 bottom-8 md:bottom-14 cursor-pointer group-hover:text-white text-[#817e7e] text-4xl -rotate-[35deg] transition-all duration-500'/>
           <div className='mt-[40px] sm:mt-[70px]'>Let's</div>
           <div className='flex'>
             <div className=''>work</div>

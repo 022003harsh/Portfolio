@@ -20,7 +20,7 @@ const Rowone = () => {
             </div>
         <div className='flex flex-col gap-5'>
           <Marquee className='item-center text-[#817e7e] text-base rounded-3xl blackwhite h-16'>
-             I am corrently working as a  <span>&nbsp;</span><span className='text-white'>Frontend developer</span><span>&nbsp;</span> also worked as a <span>&nbsp;</span><span className='text-white'>Backend web Developer</span><span>&nbsp;</span> with huge amount of projects.
+             I am currently working as a  <span>&nbsp;</span><span className='text-white'>Frontend developer</span><span>&nbsp;</span> also worked as a <span>&nbsp;</span><span className='text-white'>Backend web Developer</span><span>&nbsp;</span> with huge amount of projects.
           </Marquee>
           <div className='w-full h-full flex flex-row gap-5'>
             <div className='w-full'>

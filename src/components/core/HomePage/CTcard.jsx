@@ -11,7 +11,7 @@ import {SiMongodb} from 'react-icons/si'
 
 const CTcard = ({image,title1,title2,link,socials1,socials2}) => {
   return (<>
-   <div className='flex flex-col justify-between items-center group w-full h-full rounded-[10px] sm:rounded-[30px] blackwhite p-2 sm:p-7 border border-black hover:border-[#363636] transition-all duration-500'>
+   <div className='flex flex-col justify-between items-center group w-full h-full rounded-[10px] sm:rounded-[30px] blackwhite p-2 sm:p-7 border border-black hover:border-[#363636] transition-all duration-500 gap-2 sm:gap-0'>
       { image && <img src={image} alt="" className='text-white h-[60px]'/>}
       {socials1 && 
         <div className='border-2 border-[#1f1f1f] flex w-full h-[100px] rounded-xl justify-evenly items-center blackwhite3'>
@@ -30,12 +30,12 @@ const CTcard = ({image,title1,title2,link,socials1,socials2}) => {
         </div>
       }
       <div className='flex justify-between items-center w-full'>
-        <div>
+        <div className='pl-1 sm:pl-0'>
             <p className='text-[#817e7e] text-xs sm:text-base font-medium'>{title1}</p>
             <h2 className='text-white text-sm sm:text-lg font-bold'>{title2}</h2>
         </div>
         <div>
-        <GiPaperArrow className='cursor-pointer group-hover:text-white text-[#817e7e] text-4xl -rotate-[35deg] transition-all duration-500'/>
+        <GiPaperArrow className='cursor-pointer group-hover:text-white text-[#817e7e] text-4xl -rotate-[35deg] transition-all duration-500 pr-[10px] sm:pr-0'/>
         </div>
       </div>
     </div>
