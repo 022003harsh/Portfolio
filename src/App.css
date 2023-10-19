@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+
+html,
+body {
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #afb2bf;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 3px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+*::-webkit-scrollbar-track {
+  background: #000814;
 }
 
-.App-link {
-  color: #61dafb;
+*::-webkit-scrollbar-thumb {
+  background-color: #afb2bf;
+  border-radius: 10px;
+  visibility: hidden;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+*:active::-webkit-scrollbar-thumb,
+*:focus::-webkit-scrollbar-thumb,
+*:hover::-webkit-scrollbar-thumb {
+  visibility: visible;
+}
+
+
+
+
+
+
+
+.blackwhite{
+  background: linear-gradient(129.6deg, rgb(31, 31, 31) 1.2%, rgba(29, 29, 29, 0.31) 98.9%);
+}
+
+.blackwhite2{
+  background: linear-gradient(129.6deg, rgba(43, 43, 43, 0.562) 1.2%, rgba(26, 26, 26, 0.31) 98.9%);
+}
+
+.blackwhite3{
+  background: linear-gradient(129.6deg, rgb(31,31,31) 1.2%, rgb(0, 0, 0) 98.9%);
 }
