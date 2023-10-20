@@ -14,7 +14,7 @@ const Rowone = () => {
                  <div className='text-2xl lg:text-[64px]'>SELF-SUMMARY</div>
                  <GiPolarStar className='text-[#3e3e3e] text-3xl md:text-6xl mt-1 rotateimage'/>
             </div>
-            <div className=' blackwhite border-2 border-[#626161] rounded-[10px] sm:rounded-[30px] p-5 md:p-10 h-full flex flex-col gap-4'>
+            <div className=' blackwhite  rounded-[10px] sm:rounded-[30px] p-5 md:p-10 h-full flex flex-col gap-4'>
                 <p className='mt-auto text-2xl md:text-4xl font-semibold'>
                         Harsh Raj.
                 </p>
