@@ -38,12 +38,10 @@ body {
 
 
 
-/* .blackwhite{
-  background: linear-gradient(129.6deg, rgb(47, 47, 47) 1.2%, rgba(29, 29, 29, 0.31) 98.9%);
-} */
+
 
 .blackwhite{
-  background: linear-gradient(129.6deg, rgb(58, 58, 58) 1.2%, rgba(38, 38, 38, 0.31) 98.9%);
+  background: linear-gradient(129.6deg, rgb(44, 44, 44) 1.2%, rgba(38, 38, 38, 0.31) 98.9%);
 }
 
 .blackwhite2{
@@ -52,4 +50,27 @@ body {
 
 .blackwhite3{
   background: linear-gradient(129.6deg, rgb(31,31,31) 1.2%, rgb(0, 0, 0) 98.9%);
+}
+
+.blackwhite4{
+  background: linear-gradient(129.6deg, rgb(23, 23, 23) 1.2%, rgba(20, 20, 20, 0.31) 98.9%);
+}
+
+/* .imageset{
+  background-image: url(/src/assets/Images/myimage.jpg);
+  object-fit:fill;
+  
+} */
+
+
+.rotateimage{
+  animation: rotateImg 25s linear infinite;
+}
+@keyframes rotateImg{
+  from {
+   transform: rotate(0deg);
+  }
+ to {
+  transform: rotate(359deg);
+ }
 }

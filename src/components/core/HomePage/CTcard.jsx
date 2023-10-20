@@ -14,7 +14,7 @@ const CTcard = ({image,title1,title2,link,socials1,socials2}) => {
    <div className='flex flex-col justify-between items-center group w-full h-full rounded-[10px] sm:rounded-[30px] blackwhite p-2 sm:p-7 border border-black hover:border-[#363636] transition-all duration-500 gap-2 sm:gap-0'>
       { image && <img src={image} alt="" className='text-white h-[60px]'/>}
       {socials1 && 
-        <div className='border-2 border-[#1f1f1f] flex w-full h-[100px] rounded-xl justify-evenly items-center blackwhite3'>
+        <div className='border-2 border-[#302f2f] flex w-full h-[100px] rounded-xl justify-evenly items-center blackwhite3'>
             <AiOutlineLinkedin className='h-[50px] sm:h-[75px] w-[50px] sm:w-[75px] p-2 sm:p-5 border-2 border-[#3e3e3e] rounded-full bg-[#2e2e2e] cursor-pointer'/>
             <AiOutlineGithub className='h-[50px] sm:h-[75px] w-[50px] sm:w-[75px] p-2 sm:p-5 border-2 border-[#3e3e3e] rounded-full bg-[#2e2e2e] cursor-pointer'/>
         </div>
