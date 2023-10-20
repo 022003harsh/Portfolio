@@ -6,7 +6,7 @@ import Rowthree from '../components/core/HomePage/Rowthree'
 const Home = () => {
   return (
    <>
-    <div className='bg-black flex flex-col gap-5'>
+    <div className=' bg-black flex flex-col gap-5'>
       <Rowone/>
       <Rowtwo/>
       <Rowthree/>
