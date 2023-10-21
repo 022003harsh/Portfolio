@@ -3,7 +3,6 @@ import {GiPolarStar} from 'react-icons/gi'
 import myimage from '../../../assets/Images/myimage.jpg'
 import star from '../../../assets/Images/star4.png'
 
-
 const Rowone = () => {
   return(
     <div className='flex flex-col md:flex-row items-center justify-between gap-5 text-white mt-10 md:mt-20 md:h-[400px] w-full'>
@@ -21,7 +20,7 @@ const Rowone = () => {
               <p className='mt-auto text-2xl md:text-4xl font-semibold'>
                         Harsh Raj.
                 </p>
-                <p className='text-justify lg:max-w-[90%] text-[#767575] text-sm md:text-md font-medium'>
+                <p className='text-justify lg:max-w-[90%] text-[#767575] text-sm md:text-base font-medium leading-6'>
                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum itaque aliquid ab repellendus facilis
                      eligendi quod, aperiam sunt,
                      ipsam ratione distinctio necessitatibus corrupti eveniet? Porro iusto quis rerum quod pariatur?

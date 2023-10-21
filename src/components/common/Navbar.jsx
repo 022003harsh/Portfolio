@@ -37,8 +37,10 @@ function Navbar() {
             ))}
           </ul>
         </nav>
-
-        <div className='text-white text-lg  px-7 py-1 bg-[#353535] cursor-pointer rounded-xl'>Connect</div>
+        <Link to={"/contact"}>
+            <div className='text-white text-lg  px-7 py-1 bg-[#353535] cursor-pointer rounded-xl'>Connect</div>
+        </Link>
+        
       </div>
     </div>
   )

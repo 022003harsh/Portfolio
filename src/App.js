@@ -4,6 +4,9 @@ import About from "../src/pages/About"
 import { Route,Routes } from 'react-router-dom';
 import Footer from './components/common/Footer';
 import Navbar from './components/common/Navbar';
+import Project from './pages/Project';
+import Techstack from './pages/Techstack'
+import Contact from './pages/Contact';
 
 
 function App() {
@@ -15,6 +18,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/techstack" element={<Techstack />} />
+        <Route path="/project" element={<Project />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
 
       <Footer />
