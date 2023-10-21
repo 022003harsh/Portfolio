@@ -3,22 +3,22 @@ export const about1 = [
         id:1,
         start:"2022",
         end:"Current",
-        position:"Web-Developer",
-        company:"Microsoft Learn Student Ambassadors KIIT"
+        position:"Microsoft Learn Student Ambassadors KIIT",
+        company:"Web-Developer"
     },
     {
         id:2,
         start:"2022",
         end:"Current",
-        position:"Web-Developer",
-        company:"Kritarth(KSAC)"
+        position:"Kritarth(KSAC)",
+        company:"Web-Developer"
     },
     {
         id:3,
         start:"2022",
         end:"Current",
-        position:"philanthropist",
-        company:"TPH"
+        position:"TPH",
+        company:"philanthropist"
     }
 ]
 

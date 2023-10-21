@@ -1,6 +1,8 @@
 import React from 'react'
 import {GiPolarStar} from 'react-icons/gi'
 import myimage from '../../../assets/Images/myimage.jpg'
+import star from '../../../assets/Images/star4.png'
+
 
 const Rowone = () => {
   return (
@@ -14,8 +16,9 @@ const Rowone = () => {
                  <div className='text-2xl lg:text-[64px]'>SELF-SUMMARY</div>
                  <GiPolarStar className='text-[#3e3e3e] text-3xl md:text-6xl mt-1 rotateimage'/>
             </div>
-            <div className=' blackwhite  rounded-[10px] sm:rounded-[30px] p-5 md:p-10 h-full flex flex-col gap-4'>
-                <p className='mt-auto text-2xl md:text-4xl font-semibold'>
+            <div className=' blackwhite  rounded-[10px] sm:rounded-[30px] p-5 md:p-10 h-full flex flex-col gap-4 relative'>
+             <img src={star} alt="" className='absolute top-2 md:top-3 text-white h-[60px] md:h-[80px] right-5 md:left-5 rotate-[135deg]'/>
+              <p className='mt-auto text-2xl md:text-4xl font-semibold'>
                         Harsh Raj.
                 </p>
                 <p className='text-justify lg:max-w-[90%] text-[#767575] text-sm md:text-md font-medium'>
