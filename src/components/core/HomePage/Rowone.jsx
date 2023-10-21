@@ -9,7 +9,7 @@ import sign from '../../../assets/Images/sign.png'
 const Rowone = () => {
   return (
     <div className='text-white pt-11 px-2 grid grid-cols-1 xl:grid-cols-2 gap-5'>
-            <div className='w-full h-full group flex justify-between xl:justify-normal gap-4 xl:gap-14 items-center px-2 py-7 md:px-10 rounded-[10px] sm:rounded-[30px] blackwhite shadow-xl border border-black hover:border-[#363636] transition-all duration-500'>
+            <div className='w-full h-full group flex justify-between xl:justify-normal gap-4 xl:gap-14 items-center px-2 py-7 md:px-10 rounded-[10px] sm:rounded-[30px] blackwhite shadow-xl border border-black hover:border-[#363636] transition-all duration-500 shadow-custom1'>
               <img src={myimage} alt="" className='h-[130px] xl:h-[220px] rounded-tl-3xl rounded-br-3xl '/>
               <div className='relative w-[190px] h-[110px] xl:h-[160px] flex flex-col justify-between'>
                 <div className='text-[#817e7e] text-xs sm:text-base font-medium'>A WEB DEVELOPER</div>

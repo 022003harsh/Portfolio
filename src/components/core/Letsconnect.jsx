@@ -11,7 +11,7 @@ const Letsconnect = () => {
           <div className='mt-[40px] sm:mt-[70px]'>Let's</div>
           <div className='flex'>
             <div className=''>work</div>
-            <div className='ml-[14px] h-[60px] bg-gradient-to-r from-blue-400 to-blue-100 bg-clip-text text-transparent'> together.</div>
+            <div className='ml-[14px] h-[60px] bg-gradient-to-r from-yellow-400 to-yellow-100 bg-clip-text text-transparent'> together.</div>
           </div>
     </div>
   )

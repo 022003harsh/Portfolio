@@ -10,6 +10,10 @@ module.exports = {
     background:{
       
     },
+    boxShadow:{
+      'custom1': 'rgba(0, 0, 0, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(255, 255, 0, 0.35) 0px -2px 6px 0px inset',
+      // 'custom2': 'rgba(255, 255, 0, 0.1) 0px 1px 1px 0px inset, rgba(255,255,0, 0.25) 0px 50px 100px -20px, rgba(0,0,0, 0.3) 0px 30px 60px -30px'
+    },
     colors: {
       white: "#fff",
       black: "#000",

@@ -38,7 +38,7 @@ const Footer = () => {
 
 
 
-      <div className='text-base '>@ All rights reserved by <span className='text-lg font-medium bg-gradient-to-r from-[#3d2aa3] to-[#6226fb] bg-clip-text text-transparent'>Harsh Raj</span></div>
+      <div className='text-base '>@ All rights reserved by <span className='text-lg font-medium bg-gradient-to-r from-yellow-400 to-yellow-100 bg-clip-text text-transparent'>Harsh Raj</span></div>
     </div>
   )
 }

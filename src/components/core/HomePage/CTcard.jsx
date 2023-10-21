@@ -21,12 +21,12 @@ const CTcard = ({image,title1,title2,link,socials1,socials2}) => {
       }
       {
         socials2 && 
-        <div className='flex justify-evenly items-center h-[100px] w-full'>
-            <BiLogoReact  className='h-[95px] w-[95px] p-2 sm:p-5  rounded-full'/>
-            <TbBrandNextjs  className='h-[95px] w-[95px] p-2 sm:p-5  rounded-full'/>
-            <LiaNodeJs  className='h-[95px] w-[95px] p-2 sm:p-5  rounded-full'/>
-            <SiExpress  className='h-[95px] w-[95px] p-2 sm:p-5  rounded-full'/>
-            <SiMongodb  className='h-[95px] w-[95px] p-2 sm:p-5  rounded-full'/>
+        <div className='flex justify-evenly items-center h-[100px] w-full '>
+            <BiLogoReact  className='h-[95px] w-[95px] p-2 sm:p-5  rounded-full hover:scale-105 transition-all duration-500 '/>
+            <TbBrandNextjs  className='h-[95px] w-[95px] p-2 sm:p-5  rounded-full  hover:scale-105 transition-all duration-500'/>
+            <LiaNodeJs  className='h-[95px] w-[95px] p-2 sm:p-5  rounded-full  hover:scale-105 transition-all duration-500'/>
+            <SiExpress  className='h-[95px] w-[95px] p-2 sm:p-5  rounded-full  hover:scale-105 transition-all duration-500'/>
+            <SiMongodb  className='h-[95px] w-[95px] p-2 sm:p-5  rounded-full  hover:scale-105 transition-all duration-500'/>
         </div>
       }
       <div className='flex justify-between items-center w-full'>
