@@ -2,14 +2,20 @@ import React from 'react'
 import {GiPolarStar} from 'react-icons/gi'
 import myimage from '../../../assets/Images/myimage.jpg'
 import star from '../../../assets/Images/star4.png'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
 
 const Rowone = () => {
+  useEffect(()=>{
+    AOS.init({duration:2000});
+  },[]);
   return(
     <div className='flex flex-col md:flex-row items-center justify-between gap-5 text-white mt-10 md:mt-20 md:h-[400px] w-full'>
-        <div className='relative w-[70%] sm:w-[400px] h-full border p-5 rounded-[19px] md:rounded-[25px] blackwhite border-pure-greys-900 shadow-custom1'>
+        <div className='relative w-[70%] sm:w-[400px] h-full border p-5 rounded-[19px] md:rounded-[25px] blackwhite border-pure-greys-900 shadow-custom1' data-aos="fade-in">
             <img src={myimage} alt="" className='rounded-[10px] sm:rounded-[30px] w-full h-full'/>
         </div>
-        <div className='h-full md:w-[70%] flex flex-col gap-5'>
+        <div className='h-full md:w-[70%] flex flex-col gap-5' data-aos="fade-in">
             <div className='font-semibold flex items-center justify-center'>
                  <GiPolarStar className='text-yellow-25 text-3xl md:text-6xl mt-1 rotateimage'/>
                  <div className='text-2xl lg:text-[64px]'>SELF-SUMMARY</div>

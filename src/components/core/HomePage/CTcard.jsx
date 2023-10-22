@@ -9,14 +9,20 @@ import {SiExpress} from 'react-icons/si'
 import {SiMongodb} from 'react-icons/si'
 import { Link } from 'react-router-dom'
 import resume from '../../../assets/resume.pdf'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
 
 
 const CTcard = ({image,title1,title2,links,socials1,socials2,download}) => {
+  useEffect(()=>{
+    AOS.init({duration:2000});
+  },[]);
   return (<>
-   <div className='flex flex-col justify-between items-center group w-full h-full rounded-[10px] sm:rounded-[30px] blackwhite p-2 sm:p-7 border border-black hover:border-[#363636] transition-all duration-500 gap-2 sm:gap-0'>
+   <div className='flex flex-col justify-between items-center group w-full h-full rounded-[10px] sm:rounded-[30px] blackwhite p-2 sm:p-7 border border-black hover:border-[#363636] transition-all duration-500 gap-2 sm:gap-0' data-aos="fade-in">
       { image && <img src={image} alt="" className='text-white h-[60px]'/>}
       {socials1 && 
-        <div className='border-2 border-[#302f2f] flex w-full h-[100px] rounded-xl justify-evenly items-center blackwhite3'>
+        <div className='border-2 group border-[#302f2f] flex w-full h-[100px] rounded-xl justify-evenly items-center blackwhite3'>
         <Link to={"https://www.linkedin.com/in/harsh-raj-898340217?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"} >
             <AiOutlineLinkedin className='h-[50px] sm:h-[75px] w-[50px] sm:w-[75px] p-2 sm:p-5 border-2 border-[#3e3e3e] rounded-full bg-[#2e2e2e] cursor-pointer'/>
         </Link>

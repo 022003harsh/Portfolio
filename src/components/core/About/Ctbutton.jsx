@@ -1,9 +1,13 @@
 import React, { useState,useEffect } from 'react'
 import {about1} from '../../../data/about'
 import {about2} from '../../../data/about'
- 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const Ctbutton = ({status,about}) => {
+  useEffect(()=>{
+    AOS.init({duration:2000});
+  },[]);
     const [Abouts,setabout]=useState(about1);
     useEffect(() => {
         if(about==="about1"){
@@ -14,7 +18,7 @@ const Ctbutton = ({status,about}) => {
         }
     }, [about]);
   return (
-    <div className='blackwhite p-5 md:p-10 rounded-[10px] md:rounded-[30px] text-white'>
+    <div className='blackwhite p-5 md:p-10 rounded-[10px] md:rounded-[30px] text-white shadow-custom4' data-aos="fade-in">
       <p className='mb-4 text-lg font-semibold'>{status}</p>
         <div className='flex flex-col gap-4'>
         {Abouts.map((item,key)=>(

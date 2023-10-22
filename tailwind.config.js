@@ -12,8 +12,10 @@ module.exports = {
     },
     boxShadow:{
       'custom1': 'rgba(0, 0, 0, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(255, 255, 0, 0.75) 0px -2px 6px 0px inset',
-      'custom2': 'rgba(0, 0, 0, 0.25) 0px 50px 100px -20px , rgba(0,0,0, 0.45) 0px 20px 100px -20px, rgba(250,250,0, 0.3) 0px -2px 6px 0px'
-    },
+      'custom2': 'rgba(0, 0, 0, 0.25) 0px 50px 10px -20px , rgba(0,0,0, 0.45) 0px 20px 10px -20px, rgba(250,250,0, 0.3) 0px -3px 2px 1px',
+      'custom3': 'rgba(0,0,0, 0.25) 0px 50px 10px -20px , rgba(200,200,0, 0.45) 0px 2px 10px 5px, rgba(250,250,0, 0.3) 0px -2px 6px 0px',
+      'custom4': 'rgba(0, 0, 0, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(255, 255, 0, 0.75) 0px -1.7px 1.3px 0px inset'
+},
     colors: {
       white: "#fff",
       black: "#000",

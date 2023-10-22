@@ -6,11 +6,11 @@ import {GiPaperArrow} from 'react-icons/gi'
 
 const Cards = ({item}) => {
   return (
-    <div className='flex  h-full w-full flex-col justify-between items-center gap-5'>
+    <div className='flex  h-full w-full flex-col justify-between items-center gap-5 '>
       <div className='h-full w-full '>
         <img src={item.image} alt="" className='h-full w-full object-fill rounded-[10px] md:rounded-[30px] bg-pure-greys-300'/>
       </div>
-      <div className='flex justify-between items-center w-full'>
+      <div className='flex justify-between items-center w-full '>
         <div className='pl-1 sm:pl-0'>
             <h3 className='text-yellow-25 text-sm sm:text-lg font-bold'>{item.ongoing}</h3>
             <p className='text-[#817e7e] text-xs sm:text-base font-medium'>{item.topic}</p>
