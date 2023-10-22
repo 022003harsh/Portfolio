@@ -30,11 +30,11 @@ const Project = () => {
                  <div className='text-2xl md:text-3xl lg:text-[54px]'>ALL-PROJECTS</div>
                  <GiPolarStar className='text-yellow-25 text-3xl md:text-6xl mt-1 rotateimage'/>
             </div>
-            <div className='rounded-[10px] sm:rounded-[30px] flex h-full w-full justify-evenly gap-5 md:gap-7'>
+            <div className='rounded-[10px] sm:rounded-[30px] flex h-full w-full justify-evenly  gap-5 md:gap-7'>
             {
                 Projectdata.map((item)=>(
                     item.id==2||item.id==3  ?
-                    ( <div className=' rounded-[10px] md:rounded-[30px] p-2 md:p-5 blackwhite h-full max-w-[400px] shadow-custom2 ' data-aos="zoom-in">
+                    ( <div className=' rounded-[10px] md:rounded-[30px] p-2 md:p-5 blackwhite h-full max-w-[400px] shadow-custom2 group' data-aos="zoom-in">
                         <Card key={item.id} item={item}/>
                       </div>
                         ):("")
@@ -50,7 +50,7 @@ const Project = () => {
     {
                 Projectdata.map((item)=>(
                     item.id==1||item.id==2||item.id==3  ?
-                   (""):(<div className=' rounded-[10px] md:rounded-[30px] p-2 md:p-5 blackwhite h-full max-w-[400px] shadow-custom2 ' data-aos="zoom-in">
+                   (""):(<div className=' rounded-[10px] md:rounded-[30px] p-2 md:p-5 blackwhite h-full max-w-[400px] shadow-custom2 group' data-aos="zoom-in">
                         <Card key={item.id} item={item}/>
                       </div>)
                        

@@ -12,7 +12,7 @@ const Rowone = () => {
   },[]);
   return(
     <div className='flex flex-col md:flex-row items-center justify-between gap-5 text-white mt-10 md:mt-20 md:h-[400px] w-full'>
-        <div className='relative w-[70%] sm:w-[400px] h-full border p-5 rounded-[19px] md:rounded-[25px] blackwhite border-pure-greys-900 shadow-custom1' data-aos="fade-in">
+        <div className='relative w-[70%] sm:w-[400px] h-full border p-5 rounded-[19px] md:rounded-[25px] blackwhite border-pure-greys-900 md:shadow-custom1' data-aos="fade-in">
             <img src={myimage} alt="" className='rounded-[10px] sm:rounded-[30px] w-full h-full'/>
         </div>
         <div className='h-full md:w-[70%] flex flex-col gap-5' data-aos="fade-in">

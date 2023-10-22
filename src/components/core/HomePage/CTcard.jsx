@@ -19,7 +19,7 @@ const CTcard = ({image,title1,title2,links,socials1,socials2,download}) => {
     AOS.init({duration:2000});
   },[]);
   return (<>
-   <div className='flex flex-col justify-between items-center group w-full h-full rounded-[10px] sm:rounded-[30px] blackwhite p-2 sm:p-7 border border-black hover:border-[#363636] transition-all duration-500 gap-2 sm:gap-0' data-aos="fade-in">
+   <div className='flex flex-col justify-between items-center group w-full h-full rounded-[10px] sm:rounded-[30px] blackwhite p-2 sm:p-7 border border-black duration-2000 gap-2 sm:gap-0' data-aos="fade-in">
       { image && <img src={image} alt="" className='text-white h-[60px]'/>}
       {socials1 && 
         <div className='border-2 group border-[#302f2f] flex w-full h-[100px] rounded-xl justify-evenly items-center blackwhite3'>
@@ -35,11 +35,11 @@ const CTcard = ({image,title1,title2,links,socials1,socials2,download}) => {
       {
         socials2 && 
         <div className='flex justify-evenly items-center h-[100px] w-full '>
-            <BiLogoReact  className='h-[95px] w-[95px] p-2 sm:p-5  rounded-full hover:scale-105 transition-all duration-500 hover:text-blue-200'/>
-            <TbBrandNextjs  className='h-[95px] w-[95px] p-2 sm:p-5  rounded-full  hover:scale-105 transition-all duration-500  hover:text-black'/>
-            <LiaNodeJs  className='h-[95px] w-[95px] p-2 sm:p-5  rounded-full  hover:scale-105 transition-all duration-500 hover:text-caribbeangreen-300'/>
-            <SiExpress  className='h-[95px] w-[95px] p-2 sm:p-5  rounded-full  hover:scale-105 transition-all duration-500 hover:text-black'/>
-            <SiMongodb  className='h-[95px] w-[95px] p-2 sm:p-5  rounded-full  hover:scale-105 transition-all duration-500  hover:text-caribbeangreen-300'/>
+            <BiLogoReact  className='h-[95px] w-[95px] p-2 sm:p-5  rounded-full hover:scale-110 transition-all duration-500 hover:text-blue-200'/>
+            <TbBrandNextjs  className='h-[95px] w-[95px] p-2 sm:p-5  rounded-full  hover:scale-110 transition-all duration-500  hover:text-black'/>
+            <LiaNodeJs  className='h-[95px] w-[95px] p-2 sm:p-5  rounded-full  hover:scale-110 transition-all duration-500 hover:text-caribbeangreen-300'/>
+            <SiExpress  className='h-[95px] w-[95px] p-2 sm:p-5  rounded-full  hover:scale-110 transition-all duration-500 hover:text-black'/>
+            <SiMongodb  className='h-[95px] w-[95px] p-2 sm:p-5  rounded-full  hover:scale-110 transition-all duration-500  hover:text-caribbeangreen-300'/>
         </div>
       }
       <div className='flex justify-between items-center w-full'>

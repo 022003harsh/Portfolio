@@ -7,12 +7,15 @@ import Navbar from './components/common/Navbar';
 import Project from './pages/Project';
 import Techstack from './pages/Techstack'
 import Contact from './pages/Contact';
+import ScrollAtTop from './ScrollAtTop';
 
 
 function App() {
   return (
     <div className="App bg-black">
       <div className='max-w-[1257px] mx-auto'>
+      <ScrollAtTop/>
+
       <Navbar />
 
       <Routes>
