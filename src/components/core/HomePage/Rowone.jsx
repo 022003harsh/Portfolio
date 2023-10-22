@@ -24,10 +24,10 @@ const Rowone = () => {
           </Marquee>
           <div className='w-full h-full flex flex-row gap-5'>
             <div className='w-full'>
-              <CTcard image={sign} title1={"MORE ABOUT ME"} title2={"Credentials"} link={"hi"}/>
+              <CTcard image={sign} title1={"MORE ABOUT ME"} title2={"Credentials"} links={"/about"}/>
             </div>
             <div className='w-full'>
-              <CTcard image={sign} title1={"SHOWCASE"} title2={"Portfolios"} link={"hi"}/>
+              <CTcard image={sign} title1={"SHOWCASE"} title2={"Projects"} links={"/project"}/>
             </div>
           </div>
         </div>

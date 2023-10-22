@@ -8,9 +8,10 @@ import {LiaNodeJs} from 'react-icons/lia'
 import {SiExpress} from 'react-icons/si'
 import {SiMongodb} from 'react-icons/si'
 import { Link } from 'react-router-dom'
+import resume from '../../../assets/resume.pdf'
 
 
-const CTcard = ({image,title1,title2,links,socials1,socials2}) => {
+const CTcard = ({image,title1,title2,links,socials1,socials2,download}) => {
   return (<>
    <div className='flex flex-col justify-between items-center group w-full h-full rounded-[10px] sm:rounded-[30px] blackwhite p-2 sm:p-7 border border-black hover:border-[#363636] transition-all duration-500 gap-2 sm:gap-0'>
       { image && <img src={image} alt="" className='text-white h-[60px]'/>}
@@ -28,11 +29,11 @@ const CTcard = ({image,title1,title2,links,socials1,socials2}) => {
       {
         socials2 && 
         <div className='flex justify-evenly items-center h-[100px] w-full '>
-            <BiLogoReact  className='h-[95px] w-[95px] p-2 sm:p-5  rounded-full hover:scale-105 transition-all duration-500 '/>
-            <TbBrandNextjs  className='h-[95px] w-[95px] p-2 sm:p-5  rounded-full  hover:scale-105 transition-all duration-500 '/>
-            <LiaNodeJs  className='h-[95px] w-[95px] p-2 sm:p-5  rounded-full  hover:scale-105 transition-all duration-500 '/>
-            <SiExpress  className='h-[95px] w-[95px] p-2 sm:p-5  rounded-full  hover:scale-105 transition-all duration-500 '/>
-            <SiMongodb  className='h-[95px] w-[95px] p-2 sm:p-5  rounded-full  hover:scale-105 transition-all duration-500 '/>
+            <BiLogoReact  className='h-[95px] w-[95px] p-2 sm:p-5  rounded-full hover:scale-105 transition-all duration-500 hover:text-blue-200'/>
+            <TbBrandNextjs  className='h-[95px] w-[95px] p-2 sm:p-5  rounded-full  hover:scale-105 transition-all duration-500  hover:text-black'/>
+            <LiaNodeJs  className='h-[95px] w-[95px] p-2 sm:p-5  rounded-full  hover:scale-105 transition-all duration-500 hover:text-caribbeangreen-300'/>
+            <SiExpress  className='h-[95px] w-[95px] p-2 sm:p-5  rounded-full  hover:scale-105 transition-all duration-500 hover:text-black'/>
+            <SiMongodb  className='h-[95px] w-[95px] p-2 sm:p-5  rounded-full  hover:scale-105 transition-all duration-500  hover:text-caribbeangreen-300'/>
         </div>
       }
       <div className='flex justify-between items-center w-full'>
@@ -41,7 +42,17 @@ const CTcard = ({image,title1,title2,links,socials1,socials2}) => {
             <h2 className='text-white text-sm sm:text-lg font-bold'>{title2}</h2>
         </div>
         <div>
-        <GiPaperArrow className='cursor-pointer group-hover:text-white text-[#817e7e] text-4xl -rotate-[35deg] transition-all duration-500 pr-[10px] sm:pr-0'/>
+        {
+          download==1 ? (
+         <a href={resume} download="my_resume.pdf">
+            <GiPaperArrow className='cursor-pointer group-hover:text-white text-[#817e7e] text-4xl -rotate-[35deg] transition-all duration-500 pr-[10px] sm:pr-0'/>
+         </a>
+          ):(
+            <Link to={links}>
+              <GiPaperArrow className='cursor-pointer group-hover:text-white text-[#817e7e] text-4xl -rotate-[35deg] transition-all duration-500 pr-[10px] sm:pr-0'/>
+            </Link>
+          )
+        }
         </div>
       </div>
     </div>

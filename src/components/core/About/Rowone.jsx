@@ -6,14 +6,14 @@ import star from '../../../assets/Images/star4.png'
 const Rowone = () => {
   return(
     <div className='flex flex-col md:flex-row items-center justify-between gap-5 text-white mt-10 md:mt-20 md:h-[400px] w-full'>
-        <div className='w-[70%] sm:w-[400px] h-full border p-5 rounded-[25px] blackwhite border-pure-greys-900'>
+        <div className='relative w-[70%] sm:w-[400px] h-full border p-5 rounded-[19px] md:rounded-[25px] blackwhite border-pure-greys-900 shadow-custom1'>
             <img src={myimage} alt="" className='rounded-[10px] sm:rounded-[30px] w-full h-full'/>
         </div>
         <div className='h-full md:w-[70%] flex flex-col gap-5'>
             <div className='font-semibold flex items-center justify-center'>
-                 <GiPolarStar className='text-[#3e3e3e] text-3xl md:text-6xl mt-1 rotateimage'/>
+                 <GiPolarStar className='text-yellow-25 text-3xl md:text-6xl mt-1 rotateimage'/>
                  <div className='text-2xl lg:text-[64px]'>SELF-SUMMARY</div>
-                 <GiPolarStar className='text-[#3e3e3e] text-3xl md:text-6xl mt-1 rotateimage'/>
+                 <GiPolarStar className='text-yellow-25 text-3xl md:text-6xl mt-1 rotateimage'/>
             </div>
             <div className=' blackwhite  rounded-[10px] sm:rounded-[30px] p-5 md:p-10 h-full flex flex-col gap-4 relative shadow-custom1'>
              <img src={star} alt="" className='absolute top-2 md:top-3 text-white h-[60px] md:h-[80px] right-5 md:left-5 rotate-[135deg]'/>

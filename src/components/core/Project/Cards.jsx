@@ -6,7 +6,7 @@ import {GiPaperArrow} from 'react-icons/gi'
 
 const Cards = ({item}) => {
   return (
-    <div className='flex  h-full w-full flex-col justify-between items-center gap-5 group'>
+    <div className='flex  h-full w-full flex-col justify-between items-center gap-5'>
       <div className='h-full w-full '>
         <img src={item.image} alt="" className='h-full w-full object-fill rounded-[10px] md:rounded-[30px] bg-pure-greys-300'/>
       </div>
