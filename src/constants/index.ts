@@ -253,19 +253,19 @@ export const LANGUAGE_TECH = [
   export const COUNT = [
     {
         id:1,
-        number:"03",
-        title1:"YEARS",
+        number:"03+",
+        title1:"YEARS OF",
         title2:"EXPERIENCE"
     },
     {
         id:2,
-        number:"+10",
+        number:"10+",
         title1:"CLIENTS",
         title2:"WORLDWIDE"
     },
     {
         id:3,
-        number:"+30",
+        number:"30+",
         title1:"TOTAL",
         title2:"PROJECTS"
     }

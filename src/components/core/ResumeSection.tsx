@@ -8,7 +8,7 @@ export function ResumeSection() {
         <a href="/assets/Harsh'S resume.pdf" download="my_resume.pdf" className="h-full relative  flex items-center justify-center">
         <DirectionAwareHover imageUrl={imageUrl}>
         <p className="font-bold text-xl font-edu-sa">Resume</p>
-        <p className="font-normal text-sm">Click to Download</p>
+        <p className="font-normal text-sm font-Inter">Click to Download</p>
       </DirectionAwareHover>
         </a>
   );

@@ -97,19 +97,9 @@ export const DirectionAwareHover = ({
               src={imageUrl}
             />
           </motion.div>
-          <motion.div
-            variants={textVariants}
-            transition={{
-              duration: 0.5,
-              ease: "easeOut",
-            }}
-            className={cn(
-              "text-white text-xs sm:text-base font-medium absolute bottom-4 left-4 z-40",
-              childrenClassName
-            )}
-          >
+          <div className="text-white text-xs sm:text-base font-medium absolute bottom-4 left-4 z-40">
             {children}
-          </motion.div>
+          </div>
         </motion.div>
       </AnimatePresence>
     </motion.div>
