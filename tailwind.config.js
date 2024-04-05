@@ -19,6 +19,7 @@ const config: Config = {
     fontFamily: {
       inter: ["Inter", "sans-serif"],
       "edu-sa": ["Edu SA Beginner", "cursive"],
+      "lob": ["Lobster", "sans-serif"],
       mono: ["Roboto Mono", "monospace"],
     },
     keyframes: {

@@ -3,6 +3,7 @@ import { LANGUAGE_TECH } from "@/constants"
 const Language = () => {
   return (
     <div className="w-full h-full rounded-3xl p-6 gap-4 xl:gap-10 flex flex-col justify-between  bg-gradient-to-r from-slate-900 to-slate-800">
+      <p className=' text-base font-bold font-edu-sa'>Languages</p>
       <div className="flex flex-wrap gap-2  cursor-default">
       { 
         LANGUAGE_TECH.map((lang,index) => (
@@ -11,10 +12,6 @@ const Language = () => {
              </div>
          )) 
        }
-      </div>
-      <div>
-        <p className='text-[#817e7e] text-base font-medium font-edu-sa'>Languages</p>
-        {/* <h2 className='text-white text-sm sm:text-lg font-bold'>Languages</h2> */}
       </div>
     </div>
   )

@@ -3,6 +3,7 @@ import { SKILL_TECH } from "@/constants"
 const Skills = () => {
   return (
     <div className="w-full h-full rounded-3xl p-6 gap-4 xl:gap-10 flex flex-col justify-between  bg-gradient-to-r from-slate-900 to-slate-800">
+      <p className=' text-base font-bold font-edu-sa'>Skills</p>
       <div className="flex flex-wrap gap-2  cursor-default">
       { 
         SKILL_TECH.map((lang,index) => (
@@ -11,10 +12,6 @@ const Skills = () => {
              </div>
          )) 
        }
-      </div>
-      <div>
-        <p className='text-[#817e7e] text-base font-medium font-edu-sa'>Skills</p>
-        {/* <h2 className='text-white text-sm sm:text-lg font-bold'>Languages</h2> */}
       </div>
     </div>
   )

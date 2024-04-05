@@ -57,10 +57,10 @@ export const CardContainer = ({
         }}
       >
         <div
-          // ref={containerRef}
-          // onMouseEnter={handleMouseEnter}
-          // onMouseMove={handleMouseMove}
-          // onMouseLeave={handleMouseLeave}
+          ref={containerRef}
+          onMouseEnter={handleMouseEnter}
+          onMouseMove={handleMouseMove}
+          onMouseLeave={handleMouseLeave}
           className={cn(
             "flex items-center justify-center relative transition-all duration-200 ease-linear",
             className
